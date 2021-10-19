@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-7">
+      <h1>
+        <span *ngIf="isTechRelated === true"
+      [ngStyle]="{'background-color': 'blue'}">{{title}}
+    </span>
+
+    <em *ngIf="isTechRelated === false"
+      [ngStyle]="{'background-color': 'yellow'}">{{title}}
+    </em>
+
+  </h1>
+      <p>{{content}}</p>
+    </div>
+  </div>
+</div>

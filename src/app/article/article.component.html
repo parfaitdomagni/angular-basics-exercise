@@ -12,6 +12,14 @@
 
   </h1>
       <p>{{content}}</p>
+
+      <button
+      class="btn btn-primary"
+      (click) ="tech()" >Change isTechRelated</button>
+      <p *ngIf="isTechRelated">Tech Related</p>
+
+      <h5 *ngIf="!isTechRelated === !isTechRelated"> Not Tech Related </h5>
+
     </div>
   </div>
 </div>

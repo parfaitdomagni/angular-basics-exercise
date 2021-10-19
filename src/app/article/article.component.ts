@@ -9,4 +9,15 @@ export class ArticleComponent{
   content: string ="some content goes here";
   isTechRelated: boolean = false;
 
+  oninit(){
+
+  }
+
+  tech(){
+    //this.isTechRelated = true;
+    this.isTechRelated != this.isTechRelated;
+  }
+
+
+
 }
